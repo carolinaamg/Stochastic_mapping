@@ -30,10 +30,10 @@ The resulting stochastic and null distributions can be statistically compared (e
 This code is part of the data analysis on the following study:
 Martinez-Gutierrez, C. A., Uyeda, J. C., & Aylward, F. O. (2022). A timeline of bacterial and archaeal diversification in the ocean. bioRxiv, 2022-10.
 
-**REFERENCES**
-ape library: Paradis, E., & Schliep, K. (2019). ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R. Bioinformatics, 35(3), 526-528.
-phytools library: Revell, L. J. (2012). phytools: an R package for phylogenetic comparative biology (and other things). Methods in ecology and evolution, (2), 217-223.
-tiditree library: https://github.com/YuLab-SMU/tidytree
-hash library: https://cran.r-project.org/web/packages/hash/index.html
+**REFERENCES** 
+ape library: Paradis, E., & Schliep, K. (2019). ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R. Bioinformatics, 35(3), 526-528. 
+phytools library: Revell, L. J. (2012). phytools: an R package for phylogenetic comparative biology (and other things). Methods in ecology and evolution, (2), 217-223. 
+tiditree library: https://github.com/YuLab-SMU/tidytree 
+hash library: https://cran.r-project.org/web/packages/hash/index.html 
 
 
