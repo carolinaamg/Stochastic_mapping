@@ -3,7 +3,9 @@ This pipeline allows to identify  enriched **Orthologous Groups (OG)** in the in
 
 *enriched_OG* will use a rooted-ultrametric phylogenetic tree in newick format with node names **(see example file phylogeny_example.nwk)** as well as a presence/absence matrix **(see example file matrix_example.csv)** as input files. *enriched_OG* will create a stochastic mapping distribution and a null distribution. These distributions can be statistically compared (null distribution is generated without the presence/absence data at the tips) to find OG enriched at specific nodes of the input phylogenetic tree.  
 
-A great tool for the identification of orthologous groups is OrthoFinder (https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1832-y).  
+A great tool for the identification of orthologous groups is OrthoFinder:  
+
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1832-y  
 
 For more information on the stochastic mapping analysis:  
 
