@@ -37,7 +37,7 @@ The resulting stochastic and null distributions can be statistically compared (e
 
 **Martinez-Gutierrez, C. A., Uyeda, J. C., & Aylward, F. O. (2022). A timeline of bacterial and archaeal diversification in the ocean. bioRxiv, 2022-10.**  
 
-##**REFERENCES**  
+## **REFERENCES** ##
 
 ape library: Paradis, E., & Schliep, K. (2019). ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R. Bioinformatics, 35(3), 526-528. 
 
