@@ -26,13 +26,14 @@ This script will perform a stochastic mapping simulation and a null distribution
 
 ## STEP 2: PARSING STOCHASTIC MAPPING AND NULL DISTRIBUTION RESULTS ##
 
-Python code: python 2_stochastic_mapping_null_parsing.py
+Python code: 2_stochastic_mapping_null_parsing.py
 
 How to run:  
 
 python 2_stochastic_mapping_null_parsing.py input_folder output_file
 
-input_folder: location of the output files resulting from 1_stochastic_mapping_null.R
+input_folder: location of the output files resulting from 1_stochastic_mapping_null.R  
+
 output_file: file with the stochastic mapping and the null distributions. The column Clusters_gained_or_lost represents the orthologous groups gained or lost at each node on the tree and for each simulation.  
 
 The resulting stochastic and null distributions can be statistically compared (e.g., Wilcox test) to find enriched orhologous groups at nodes of interest.
