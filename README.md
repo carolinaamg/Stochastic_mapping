@@ -8,8 +8,11 @@ R code: 1_stochastic_mapping_null.R
 
 **Libraries required:**
 ape (Paradis and Schliep, 2019)  
+
 phytools (Revell, 2012)  
+
 tidytree (Yu, 2022)  
+
 hash (Brown, 2023)  
 
 This script will perform a stochastic mapping simulation and a null distribution of the orthologous groups gained and lost at each node on the input phylogenetic tree **(replicates to be decided by the user; modify line 11, default value is 100)**. The useR can decide what model to use for the stochastic mapping analysis (line 36; see make.simmap documentation https://search.r-project.org/CRAN/refmans/phytools/html/make.simmap.html) and the default model is ARD ("all-rates-different)".
