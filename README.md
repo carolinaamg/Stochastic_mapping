@@ -6,7 +6,7 @@ This code allows to identify  enriched **Orthologous Groups (OG)** in the intern
 ## STEP 1: CREATING A STOCHASTIC MAPPING AND A NULL DISTRIBUTION ##
 R code: 1_stochastic_mapping_null.R
 
-**Libraries required:**
+**Libraries required:**  
 
 ape (Paradis and Schliep, 2019)  
 
