@@ -20,7 +20,7 @@ tidytree (Yu, 2022)
 
 hash (Brown, 2023)  
 
-This script will perform a stochastic mapping simulation and a null distribution of the orthologous groups gained and lost at each node of the input phylogenetic tree **(replicates to be decided by the user; modify line 11, default value is 100)**. The useR can decide what model to use for the stochastic mapping analysis (line 36; see make.simmap documentation https://search.r-project.org/CRAN/refmans/phytools/html/make.simmap.html) and the default model is ARD ("all-rates-different)".
+This script will perform a stochastic mapping simulation and a null distribution of the orthologous groups gained and lost at each node of the input phylogenetic tree **(replicates to be decided by the user; modify line 11, default value is 100)**. The user can decide what model to use for the stochastic mapping analysis (line 36; see make.simmap documentation https://search.r-project.org/CRAN/refmans/phytools/html/make.simmap.html). The default model is ARD ("all-rates-different)".
 
 **Note: the Q matrix will be modified if one of the lines has 0 as value. In such a case, the replaced value on the Q matrix will be 0.00001**
 
