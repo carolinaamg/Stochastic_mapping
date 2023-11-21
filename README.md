@@ -1,7 +1,9 @@
 # enriched_OG
 This pipeline allows to identify  enriched **Orthologous Groups (OG)** in the internal nodes of a rooted phylogenetic tree.
 
-*enriched_OG* will use a rooted-ultrametric phylogenetic tree in newick format with node names **(see example file phylogeny_example.nwk)** as well as a presence/absence matrix **(see example file matrix_example.csv)** as input files. *enriched_OG* will create a stochastic mapping distribution and a null distribution. These distributions can be statistically compared (null distribution is generated without the presence/absence data at the tips) to find OG enriched at specific nodes of the input phylogenetic tree. 
+*enriched_OG* will use a rooted-ultrametric phylogenetic tree in newick format with node names **(see example file phylogeny_example.nwk)** as well as a presence/absence matrix **(see example file matrix_example.csv)** as input files. *enriched_OG* will create a stochastic mapping distribution and a null distribution. These distributions can be statistically compared (null distribution is generated without the presence/absence data at the tips) to find OG enriched at specific nodes of the input phylogenetic tree.  
+
+A great tool for the identification of orthologous groups is OrthoFinder (https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1832-y).  
 
 For more information on the stochastic mapping analysis:  
 
@@ -43,6 +45,8 @@ The resulting stochastic and null distributions can be statistically compared (e
 **Martinez-Gutierrez, C. A., Uyeda, J. C., & Aylward, F. O. (2022). A timeline of bacterial and archaeal diversification in the ocean. bioRxiv, 2022-10.**  
 
 ## REFERENCES ##
+
+OrthoFinder: Emms, D. M., & Kelly, S. (2019). OrthoFinder: phylogenetic orthology inference for comparative genomics. Genome biology, 20, 1-14.
 
 ape library: Paradis, E., & Schliep, K. (2019). ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R. Bioinformatics, 35(3), 526-528. 
 
