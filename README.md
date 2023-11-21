@@ -1,7 +1,11 @@
 # enriched_OG
 This pipeline allows to identify  enriched **Orthologous Groups (OG)** in the internal nodes of a rooted phylogenetic tree.
 
-*enriched_OG* will use a rooted-ultrametric phylogenetic tree in newick format with node names **(see example file)** as well as a presence/absence matrix **(see example file)** as input files. *enriched_OG* will create a stochastic mapping distribution and a simulated distribution. These distributions can be statistically compared (simulated distribution as the null distribution without the presence/absence data at the tips) to find OG enriched at specific nodes of the input phylogenetic tree. 
+*enriched_OG* will use a rooted-ultrametric phylogenetic tree in newick format with node names **(see example file)** as well as a presence/absence matrix **(see example file)** as input files. *enriched_OG* will create a stochastic mapping distribution and a null distribution. These distributions can be statistically compared (null distribution is generated without the presence/absence data at the tips) to find OG enriched at specific nodes of the input phylogenetic tree. 
+
+For more information on the stochastic mapping analysis:  
+
+http://www.phytools.org/static.help/make.simmap.html
 
 ## STEP 1: CREATING A STOCHASTIC MAPPING AND A NULL DISTRIBUTION ##
 R code: 1_stochastic_mapping_null.R
