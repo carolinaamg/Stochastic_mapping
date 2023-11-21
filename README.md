@@ -35,7 +35,7 @@ The resulting stochastic and null distributions can be statistically compared (e
 
 **This code is part of the data analysis on the following study:**  
 
-**Martinez-Gutierrez, C. A., Uyeda, J. C., & Aylward, F. O. (2022). A timeline of bacterial and archaeal diversification in the ocean. bioRxiv, 2022-10.**
+**Martinez-Gutierrez, C. A., Uyeda, J. C., & Aylward, F. O. (2022). A timeline of bacterial and archaeal diversification in the ocean. bioRxiv, 2022-10.**  
 
 **REFERENCES**  
 
