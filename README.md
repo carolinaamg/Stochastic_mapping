@@ -25,6 +25,7 @@ This script will perform a stochastic mapping simulation and a null distribution
 Python code: python 2_stochastic_mapping_null_parsing.py
 
 How to run:  
+
 python 2_stochastic_mapping_null_parsing.py input_folder output_file
 
 input_folder: location of the output files resulting from 1_stochastic_mapping_null.R
