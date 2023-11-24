@@ -54,7 +54,7 @@ ape library: Paradis, E., & Schliep, K. (2019). ape 5.0: an environment for mode
 
 phytools library: Revell, L. J. (2012). phytools: an R package for phylogenetic comparative biology (and other things). Methods in ecology and evolution, (2), 217-223. 
 
-tiditree library: https://github.com/YuLab-SMU/tidytree 
+tidytree library: https://github.com/YuLab-SMU/tidytree 
 
 hash library: https://cran.r-project.org/web/packages/hash/index.html 
 
