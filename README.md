@@ -12,7 +12,7 @@ For more information on the stochastic mapping analysis:
 http://www.phytools.org/static.help/make.simmap.html
 
 ## STEP 1: CREATING A STOCHASTIC MAPPING AND A NULL DISTRIBUTION ##
-R code: 1_stochastic_mapping_null.R
+*R code: 1_stochastic_mapping_null.R*
 
 **Libraries required:**  
 
@@ -30,9 +30,9 @@ This script will perform a stochastic mapping simulation and a null distribution
 
 ## STEP 2: PARSING STOCHASTIC MAPPING AND NULL DISTRIBUTION RESULTS ##
 
-Python code: 2_stochastic_mapping_null_parsing.py
+*Python code: 2_stochastic_mapping_null_parsing.py*
 
-How to run:  
+**How to run:**  
 
 python 2_stochastic_mapping_null_parsing.py input_folder output_file
 
